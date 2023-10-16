@@ -1,0 +1,1214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+
+
+    <style>
+        .border {
+            width: 1400px;
+            /* Set a width for your element */
+            height: 1200px;
+            /* Set a height for your element */
+            border-width: 5px;
+            /* Set the width for all four sides */
+            border-style: solid;
+            /* Set the border style */
+            border-color: #000000;
+            /* Set the border color */
+        }
+
+        #left_section {
+            position: absolute;
+            top: 13px;
+            left: 13px;
+            background-color: red;
+            width: 30%;
+            height: 162%;
+        }
+
+        #name {
+            position: absolute;
+            top: 2%;
+            left: 2%;
+            color: white;
+        }
+
+        #cake {
+            position: absolute;
+            top: 13%;
+            left: 2%;
+            width: 1.5%;
+            height: 2%;
+            color: black;
+        }
+
+        #dob {
+            position: absolute;
+            top: 10.5%;
+            left: 4.5%;
+            color: white;
+        }
+
+        #mail {
+            position: absolute;
+            top: 17%;
+            left: 2%;
+            width: 1.5%;
+            height: 2%;
+            color: black;
+        }
+
+        #Mail {
+            position: absolute;
+            top: 14.5%;
+            left: 4.5%;
+            color: white;
+        }
+
+        #call {
+            position: absolute;
+            top: 21%;
+            left: 2%;
+            width: 1.5%;
+            height: 2%;
+            color: black;
+        }
+
+        #mob {
+            position: absolute;
+            top: 18.5%;
+            left: 4.5%;
+            color: white;
+        }
+
+        #top_low {
+            position: absolute;
+            top: 26%;
+            left: 13px;
+            background-color: darkred;
+            width: 20%;
+            height: 3%;
+        }
+
+        #skill {
+            position: absolute;
+            top: 24%;
+            left: 2%;
+            color: white;
+        }
+
+        #complete {
+            position: absolute;
+            top: 29%;
+            left: 2%;
+            color: white;
+            font-size: large;
+
+        }
+
+        #radio_1 {
+            position: absolute;
+            top: 35%;
+            left: 2%;
+            display: inline-block;
+            margin: 5px;
+            width: 12px;
+            /* Adjust the width of the buttons as needed */
+            height: 12px;
+            /* Adjust the height of the buttons as needed */
+            line-height: 50px;
+            /* Vertically center the text inside the buttons */
+            font-weight: bold;
+            text-decoration: none;
+            border: 2px solid black;
+            color: #3498db;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+        #radio_2 {
+            position: absolute;
+            top: 35%;
+            left: 3.5%;
+            display: inline-block;
+            margin: 5px;
+            width: 12px;
+            /* Adjust the width of the buttons as needed */
+            height: 12px;
+            /* Adjust the height of the buttons as needed */
+            line-height: 50px;
+            /* Vertically center the text inside the buttons */
+            font-weight: bold;
+            text-decoration: none;
+            border: 2px solid black;
+            color: #3498db;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+        #radio_3 {
+            position: absolute;
+            top: 35%;
+            left: 5%;
+            display: inline-block;
+            margin: 5px;
+            width: 12px;
+            /* Adjust the width of the buttons as needed */
+            height: 12px;
+            /* Adjust the height of the buttons as needed */
+            line-height: 50px;
+            /* Vertically center the text inside the buttons */
+            font-weight: bold;
+            text-decoration: none;
+            border: 2px solid black;
+            color: #3498db;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+        #radio_4 {
+            position: absolute;
+            top: 35%;
+            left: 6.5%;
+            display: inline-block;
+            margin: 5px;
+            width: 12px;
+            /* Adjust the width of the buttons as needed */
+            height: 12px;
+            /* Adjust the height of the buttons as needed */
+            line-height: 50px;
+            /* Vertically center the text inside the buttons */
+            font-weight: bold;
+            text-decoration: none;
+            border: 2px solid black;
+            color: #3498db;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+        #radio_5 {
+            position: absolute;
+            top: 35%;
+            left: 8%;
+            display: inline-block;
+            margin: 5px;
+            width: 12px;
+            /* Adjust the width of the buttons as needed */
+            height: 12px;
+            /* Adjust the height of the buttons as needed */
+            line-height: 50px;
+            /* Vertically center the text inside the buttons */
+            font-weight: bold;
+            text-decoration: none;
+            border: 2px solid black;
+            color: #3498db;
+            /* background-color: white; */
+            border-radius: 50%;
+        }
+
+        #web {
+            position: absolute;
+            top: 29%;
+            left: 18%;
+            color: white;
+            font-size: large;
+        }
+
+        #radio_6 {
+            position: absolute;
+            top: 35%;
+            left: 18%;
+            display: inline-block;
+            margin: 5px;
+            width: 12px;
+            /* Adjust the width of the buttons as needed */
+            height: 12px;
+            /* Adjust the height of the buttons as needed */
+            line-height: 50px;
+            /* Vertically center the text inside the buttons */
+            font-weight: bold;
+            text-decoration: none;
+            border: 2px solid black;
+            color: #3498db;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+        #radio_7 {
+            position: absolute;
+            top: 35%;
+            left: 19.5%;
+            display: inline-block;
+            margin: 5px;
+            width: 12px;
+            /* Adjust the width of the buttons as needed */
+            height: 12px;
+            /* Adjust the height of the buttons as needed */
+            line-height: 50px;
+            /* Vertically center the text inside the buttons */
+            font-weight: bold;
+            text-decoration: none;
+            border: 2px solid black;
+            color: #3498db;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+        #radio_8 {
+            position: absolute;
+            top: 35%;
+            left: 21%;
+            display: inline-block;
+            margin: 5px;
+            width: 12px;
+            /* Adjust the width of the buttons as needed */
+            height: 12px;
+            /* Adjust the height of the buttons as needed */
+            line-height: 50px;
+            /* Vertically center the text inside the buttons */
+            font-weight: bold;
+            text-decoration: none;
+            border: 2px solid black;
+            color: #3498db;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+        #radio_9 {
+            position: absolute;
+            top: 35%;
+            left: 22.5%;
+            display: inline-block;
+            margin: 5px;
+            width: 12px;
+            /* Adjust the width of the buttons as needed */
+            height: 12px;
+            /* Adjust the height of the buttons as needed */
+            line-height: 50px;
+            /* Vertically center the text inside the buttons */
+            font-weight: bold;
+            text-decoration: none;
+            border: 2px solid black;
+            color: #3498db;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+        #radio_10 {
+            position: absolute;
+            top: 35%;
+            left: 24%;
+            display: inline-block;
+            margin: 5px;
+            width: 12px;
+            /* Adjust the width of the buttons as needed */
+            height: 12px;
+            /* Adjust the height of the buttons as needed */
+            line-height: 50px;
+            /* Vertically center the text inside the buttons */
+            font-weight: bold;
+            text-decoration: none;
+            border: 2px solid black;
+            color: #3498db;
+            /* background-color: white; */
+            border-radius: 50%;
+        }
+
+        #bash_shell {
+            position: absolute;
+            top: 38%;
+            left: 2%;
+            color: white;
+            font-size: large;
+        }
+
+        #radio_11 {
+            position: absolute;
+            top: 44%;
+            left: 2%;
+            display: inline-block;
+            margin: 5px;
+            width: 12px;
+            /* Adjust the width of the buttons as needed */
+            height: 12px;
+            /* Adjust the height of the buttons as needed */
+            line-height: 50px;
+            /* Vertically center the text inside the buttons */
+            font-weight: bold;
+            text-decoration: none;
+            border: 2px solid black;
+            color: #3498db;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+        #radio_12 {
+            position: absolute;
+            top: 44%;
+            left: 3.5%;
+            display: inline-block;
+            margin: 5px;
+            width: 12px;
+            /* Adjust the width of the buttons as needed */
+            height: 12px;
+            /* Adjust the height of the buttons as needed */
+            line-height: 50px;
+            /* Vertically center the text inside the buttons */
+            font-weight: bold;
+            text-decoration: none;
+            border: 2px solid black;
+            color: #3498db;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+        #radio_13 {
+            position: absolute;
+            top: 44%;
+            left: 5%;
+            display: inline-block;
+            margin: 5px;
+            width: 12px;
+            /* Adjust the width of the buttons as needed */
+            height: 12px;
+            /* Adjust the height of the buttons as needed */
+            line-height: 50px;
+            /* Vertically center the text inside the buttons */
+            font-weight: bold;
+            text-decoration: none;
+            border: 2px solid black;
+            color: #3498db;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+        #radio_14 {
+            position: absolute;
+            top: 44%;
+            left: 6.5%;
+            display: inline-block;
+            margin: 5px;
+            width: 12px;
+            /* Adjust the width of the buttons as needed */
+            height: 12px;
+            /* Adjust the height of the buttons as needed */
+            line-height: 50px;
+            /* Vertically center the text inside the buttons */
+            font-weight: bold;
+            text-decoration: none;
+            border: 2px solid black;
+            color: #3498db;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+        #radio_15 {
+            position: absolute;
+            top: 44%;
+            left: 8%;
+            display: inline-block;
+            margin: 5px;
+            width: 12px;
+            /* Adjust the width of the buttons as needed */
+            height: 12px;
+            /* Adjust the height of the buttons as needed */
+            line-height: 50px;
+            /* Vertically center the text inside the buttons */
+            font-weight: bold;
+            text-decoration: none;
+            border: 2px solid black;
+            color: #3498db;
+            /* background-color: white; */
+            border-radius: 50%;
+        }
+
+        #java {
+            position: absolute;
+            top: 38%;
+            left: 18%;
+            color: white;
+            font-size: large;
+        }
+
+        #radio_16 {
+            position: absolute;
+            top: 44%;
+            left: 18%;
+            display: inline-block;
+            margin: 5px;
+            width: 12px;
+            /* Adjust the width of the buttons as needed */
+            height: 12px;
+            /* Adjust the height of the buttons as needed */
+            line-height: 50px;
+            /* Vertically center the text inside the buttons */
+            font-weight: bold;
+            text-decoration: none;
+            border: 2px solid black;
+            color: #3498db;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+        #radio_17 {
+            position: absolute;
+            top: 44%;
+            left: 19.5%;
+            display: inline-block;
+            margin: 5px;
+            width: 12px;
+            /* Adjust the width of the buttons as needed */
+            height: 12px;
+            /* Adjust the height of the buttons as needed */
+            line-height: 50px;
+            /* Vertically center the text inside the buttons */
+            font-weight: bold;
+            text-decoration: none;
+            border: 2px solid black;
+            color: #3498db;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+        #radio_18 {
+            position: absolute;
+            top: 44%;
+            left: 21%;
+            display: inline-block;
+            margin: 5px;
+            width: 12px;
+            /* Adjust the width of the buttons as needed */
+            height: 12px;
+            /* Adjust the height of the buttons as needed */
+            line-height: 50px;
+            /* Vertically center the text inside the buttons */
+            font-weight: bold;
+            text-decoration: none;
+            border: 2px solid black;
+            color: #3498db;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+        #radio_19 {
+            position: absolute;
+            top: 44%;
+            left: 22.5%;
+            display: inline-block;
+            margin: 5px;
+            width: 12px;
+            /* Adjust the width of the buttons as needed */
+            height: 12px;
+            /* Adjust the height of the buttons as needed */
+            line-height: 50px;
+            /* Vertically center the text inside the buttons */
+            font-weight: bold;
+            text-decoration: none;
+            border: 2px solid black;
+            color: #3498db;
+            /* background-color: white; */
+            border-radius: 50%;
+        }
+
+        #radio_20 {
+            position: absolute;
+            top: 44%;
+            left: 24%;
+            display: inline-block;
+            margin: 5px;
+            width: 12px;
+            /* Adjust the width of the buttons as needed */
+            height: 12px;
+            /* Adjust the height of the buttons as needed */
+            line-height: 50px;
+            /* Vertically center the text inside the buttons */
+            font-weight: bold;
+            text-decoration: none;
+            border: 2px solid black;
+            color: #3498db;
+            /* background-color: white; */
+            border-radius: 50%;
+        }
+
+        #iot {
+            position: absolute;
+            top: 47%;
+            left: 2%;
+            color: white;
+            font-size: large;
+        }
+
+        #radio_21 {
+            position: absolute;
+            top: 53%;
+            left: 2%;
+            display: inline-block;
+            margin: 5px;
+            width: 12px;
+            /* Adjust the width of the buttons as needed */
+            height: 12px;
+            /* Adjust the height of the buttons as needed */
+            line-height: 50px;
+            /* Vertically center the text inside the buttons */
+            font-weight: bold;
+            text-decoration: none;
+            border: 2px solid black;
+            color: #3498db;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+        #radio_22 {
+            position: absolute;
+            top: 53%;
+            left: 3.5%;
+            display: inline-block;
+            margin: 5px;
+            width: 12px;
+            /* Adjust the width of the buttons as needed */
+            height: 12px;
+            /* Adjust the height of the buttons as needed */
+            line-height: 50px;
+            /* Vertically center the text inside the buttons */
+            font-weight: bold;
+            text-decoration: none;
+            border: 2px solid black;
+            color: #3498db;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+        #radio_23 {
+            position: absolute;
+            top: 53%;
+            left: 5%;
+            display: inline-block;
+            margin: 5px;
+            width: 12px;
+            /* Adjust the width of the buttons as needed */
+            height: 12px;
+            /* Adjust the height of the buttons as needed */
+            line-height: 50px;
+            /* Vertically center the text inside the buttons */
+            font-weight: bold;
+            text-decoration: none;
+            border: 2px solid black;
+            color: #3498db;
+            /* background-color: white; */
+            border-radius: 50%;
+        }
+
+        #radio_24 {
+            position: absolute;
+            top: 53%;
+            left: 6.5%;
+            display: inline-block;
+            margin: 5px;
+            width: 12px;
+            /* Adjust the width of the buttons as needed */
+            height: 12px;
+            /* Adjust the height of the buttons as needed */
+            line-height: 50px;
+            /* Vertically center the text inside the buttons */
+            font-weight: bold;
+            text-decoration: none;
+            border: 2px solid black;
+            color: #3498db;
+            /* background-color: white; */
+            border-radius: 50%;
+        }
+
+        #radio_25 {
+            position: absolute;
+            top: 53%;
+            left: 8%;
+            display: inline-block;
+            margin: 5px;
+            width: 12px;
+            /* Adjust the width of the buttons as needed */
+            height: 12px;
+            /* Adjust the height of the buttons as needed */
+            line-height: 50px;
+            /* Vertically center the text inside the buttons */
+            font-weight: bold;
+            text-decoration: none;
+            border: 2px solid black;
+            color: #3498db;
+            /* background-color: white; */
+            border-radius: 50%;
+        }
+
+        #tools {
+            position: absolute;
+            top: 47%;
+            left: 18%;
+            color: white;
+            font-size: large;
+        }
+
+        #radio_26 {
+            position: absolute;
+            top: 53%;
+            left: 18%;
+            display: inline-block;
+            margin: 5px;
+            width: 12px;
+            /* Adjust the width of the buttons as needed */
+            height: 12px;
+            /* Adjust the height of the buttons as needed */
+            line-height: 50px;
+            /* Vertically center the text inside the buttons */
+            font-weight: bold;
+            text-decoration: none;
+            border: 2px solid black;
+            color: #3498db;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+        #radio_27 {
+            position: absolute;
+            top: 53%;
+            left: 19.5%;
+            display: inline-block;
+            margin: 5px;
+            width: 12px;
+            /* Adjust the width of the buttons as needed */
+            height: 12px;
+            /* Adjust the height of the buttons as needed */
+            line-height: 50px;
+            /* Vertically center the text inside the buttons */
+            font-weight: bold;
+            text-decoration: none;
+            border: 2px solid black;
+            color: #3498db;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+        #radio_28 {
+            position: absolute;
+            top: 53%;
+            left: 21%;
+            display: inline-block;
+            margin: 5px;
+            width: 12px;
+            /* Adjust the width of the buttons as needed */
+            height: 12px;
+            /* Adjust the height of the buttons as needed */
+            line-height: 50px;
+            /* Vertically center the text inside the buttons */
+            font-weight: bold;
+            text-decoration: none;
+            border: 2px solid black;
+            color: #3498db;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+        #radio_29 {
+            position: absolute;
+            top: 53%;
+            left: 22.5%;
+            display: inline-block;
+            margin: 5px;
+            width: 12px;
+            /* Adjust the width of the buttons as needed */
+            height: 12px;
+            /* Adjust the height of the buttons as needed */
+            line-height: 50px;
+            /* Vertically center the text inside the buttons */
+            font-weight: bold;
+            text-decoration: none;
+            border: 2px solid black;
+            color: #3498db;
+            /* background-color: white; */
+            border-radius: 50%;
+        }
+
+        #radio_30 {
+            position: absolute;
+            top: 53%;
+            left: 24%;
+            display: inline-block;
+            margin: 5px;
+            width: 12px;
+            /* Adjust the width of the buttons as needed */
+            height: 12px;
+            /* Adjust the height of the buttons as needed */
+            line-height: 50px;
+            /* Vertically center the text inside the buttons */
+            font-weight: bold;
+            text-decoration: none;
+            border: 2px solid black;
+            color: #3498db;
+            /* background-color: white; */
+            border-radius: 50%;
+        }
+
+        #stack {
+            position: absolute;
+            top: 60%;
+            left: 9%;
+            color: white;
+            font-size: large;
+        }
+
+        #radio_31 {
+            position: absolute;
+            top: 66%;
+            left: 9%;
+            display: inline-block;
+            margin: 5px;
+            width: 12px;
+            /* Adjust the width of the buttons as needed */
+            height: 12px;
+            /* Adjust the height of the buttons as needed */
+            line-height: 50px;
+            /* Vertically center the text inside the buttons */
+            font-weight: bold;
+            text-decoration: none;
+            border: 2px solid black;
+            color: #3498db;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+        #radio_32 {
+            position: absolute;
+            top: 66%;
+            left: 10.5%;
+            display: inline-block;
+            margin: 5px;
+            width: 12px;
+            /* Adjust the width of the buttons as needed */
+            height: 12px;
+            /* Adjust the height of the buttons as needed */
+            line-height: 50px;
+            /* Vertically center the text inside the buttons */
+            font-weight: bold;
+            text-decoration: none;
+            border: 2px solid black;
+            color: #3498db;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+        #radio_33 {
+            position: absolute;
+            top: 66%;
+            left: 12%;
+            display: inline-block;
+            margin: 5px;
+            width: 12px;
+            /* Adjust the width of the buttons as needed */
+            height: 12px;
+            /* Adjust the height of the buttons as needed */
+            line-height: 50px;
+            /* Vertically center the text inside the buttons */
+            font-weight: bold;
+            text-decoration: none;
+            border: 2px solid black;
+            color: #3498db;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+        #radio_34 {
+            position: absolute;
+            top: 66%;
+            left: 13.5%;
+            display: inline-block;
+            margin: 5px;
+            width: 12px;
+            /* Adjust the width of the buttons as needed */
+            height: 12px;
+            /* Adjust the height of the buttons as needed */
+            line-height: 50px;
+            /* Vertically center the text inside the buttons */
+            font-weight: bold;
+            text-decoration: none;
+            border: 2px solid black;
+            color: #3498db;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+        #radio_35 {
+            position: absolute;
+            top: 66%;
+            left: 15%;
+            display: inline-block;
+            margin: 5px;
+            width: 12px;
+            /* Adjust the width of the buttons as needed */
+            height: 12px;
+            /* Adjust the height of the buttons as needed */
+            line-height: 50px;
+            /* Vertically center the text inside the buttons */
+            font-weight: bold;
+            text-decoration: none;
+            border: 2px solid black;
+            color: #3498db;
+            /* background-color: white; */
+            border-radius: 50%;
+        }
+
+
+        #top_middle {
+            position: absolute;
+            top: 73%;
+            left: 13px;
+            background-color: darkred;
+            width: 20%;
+            height: 3%;
+        }
+
+        #interest {
+            position: absolute;
+            top: 71%;
+            left: 2%;
+            color: white;
+
+        }
+
+        #hacking {
+            position: absolute;
+            top: 76%;
+            left: 2%;
+            color: white;
+            font-size: large;
+
+        }
+
+        #bottom_middle {
+            position: absolute;
+            top: 84%;
+            left: 13px;
+            background-color: darkred;
+            width: 20%;
+            height: 3%;
+        }
+
+        #language {
+            position: absolute;
+            top: 81.5%;
+            left: 2%;
+            color: white;
+            font-size: large;
+
+        }
+
+        #english {
+            position: absolute;
+            top: 87%;
+            left: 2%;
+            color: white;
+            font-size: large;
+        }
+
+        #bottom_low {
+            position: absolute;
+            top: 94%;
+            left: 13px;
+            background-color: darkred;
+            width: 20%;
+            height: 3%;
+        }
+
+        #certification {
+            position: absolute;
+            top: 91.5%;
+            left: 2%;
+            color: white;
+            font-size: large;
+
+        }
+
+        #CER {
+            position: absolute;
+            top: 100%;
+            left: 13px;
+            width: 300px;
+            height: 300px;
+        }
+
+        #top_bar {
+            position: absolute;
+            top: 10%;
+            left: 468px;
+            background-color: darkred;
+            width: 50%;
+            height: 5%;
+
+        }
+
+        #education {
+            position: absolute;
+            top: 9%;
+            left: 485px;
+            color: white;
+            font-size: large;
+        }
+
+        #university {
+            position: absolute;
+            top: 14%;
+            left: 485px;
+            /* color: white; */
+            font-size: large;
+            width: 10%;
+        }
+
+        #session {
+            position: absolute;
+            top: 14%;
+            left: 700px;
+            /* color: white; */
+            font-size: large;
+            width: 10%;
+        }
+
+        #top_bar_2 {
+            position: absolute;
+            top: 30%;
+            left: 468px;
+            background-color: darkred;
+            width: 50%;
+            height: 5%;
+
+        }
+
+        #projects {
+            position: absolute;
+            top: 29%;
+            left: 484px;
+            color: white;
+            font-size: large;
+        }
+
+        #tracker {
+            position: absolute;
+            top: 35%;
+            left: 485px;
+            /* color: white; */
+            font-size: large;
+            width: 20%;
+        }
+
+        #expense {
+            position: absolute;
+            top: 40%;
+            left: 485px;
+            /* color: white; */
+            font-size: large;
+            width: 20%;
+        }
+
+        #chat {
+            position: absolute;
+            top: 35%;
+            left: 900px;
+            /* color: white; */
+            font-size: large;
+            width: 20%;
+        }
+        #chat_para{
+            position: absolute;
+            top: 40%;
+            left: 900px;
+            /* color: white; */
+            font-size: large;
+            width: 20%;
+        }
+        
+        #top_bar_3 {
+            position: absolute;
+            top: 3%;
+            right: 105px;
+            background-color: darkred;
+            width: 15%;
+            height: 5%;
+
+        }
+        #certificate {
+            position: absolute;
+            top: 2%;
+            right: 140px;
+            color: white;
+            font-size: large;
+        }
+        
+    </style>
+
+
+</head>
+
+<body>
+
+    <div class="border"></div>
+
+    <div id="left_section"></div>
+
+    <h1 id="name">ROHIT KUMAR</h1>
+
+    <img src="cake 1.png" id="cake">
+
+    <p id="dob">May 21, 1999</p>
+
+    <img src="mail.png" id="mail">
+
+    <p id="Mail">Hyperhacking01@gmail.com</p>
+
+    <img src="call.png" id="call">
+
+    <p id="mob">8084350824</p>
+
+    <div id="top_low"></div>
+
+    <p id="skill">SKILLS</p>
+
+    <p id="complete">Complete ethical hacking</p>
+
+    <div id="radio_1"></div>
+    <div id="radio_2"></div>
+    <div id="radio_3"></div>
+    <div id="radio_4"></div>
+    <div id="radio_5"></div>
+
+    <p id="web">Complete web hacking</p>
+
+    <div id="radio_6"></div>
+    <div id="radio_7"></div>
+    <div id="radio_8"></div>
+    <div id="radio_9"></div>
+    <div id="radio_10"></div>
+
+    <p id="bash_shell">Bash shell scripting and linux</p>
+
+    <div id="radio_11"></div>
+    <div id="radio_12"></div>
+    <div id="radio_13"></div>
+    <div id="radio_14"></div>
+    <div id="radio_15"></div>
+
+    <p id="java">Andriod dev in java</p>
+
+    <div id="radio_16"></div>
+    <div id="radio_17"></div>
+    <div id="radio_18"></div>
+    <div id="radio_19"></div>
+    <div id="radio_20"></div>
+
+
+    <p id="iot">Iot </p>
+
+    <div id="radio_21"></div>
+    <div id="radio_22"></div>
+    <div id="radio_23"></div>
+    <div id="radio_24"></div>
+    <div id="radio_25"></div>
+
+    <p id="tools">Python for making tools</p>
+
+    <div id="radio_26"></div>
+    <div id="radio_27"></div>
+    <div id="radio_28"></div>
+    <div id="radio_29"></div>
+    <div id="radio_30"></div>
+
+    <p id="stack">full Stack Developers</p>
+
+    <div id="radio_31"></div>
+    <div id="radio_32"></div>
+    <div id="radio_33"></div>
+    <div id="radio_34"></div>
+    <div id="radio_35"></div>
+
+    <div id="top_middle"></div>
+
+    <p id="interest">INTERESTS</p>
+
+    <p id="hacking">Hacking and developements</p>
+
+    <div id="bottom_middle"></div>
+    <p id="language">LANGUAGE</p>
+    <p id="english">English</p>
+
+    <div id="bottom_low"></div>
+    <p id="certification">CERTIFICATIONS</p>
+
+    <img src="CER.png" id="CER">
+
+    <div id="top_bar"></div>
+    <p id="education">EDUCATION</p>
+
+    <h2 id="university">Chandigarh university , Punjab BCA ,Computer science </h2>
+    <h2 id="session"> (july 06, 2021- september 06,2024)</h2>
+
+    <div id="top_bar_2"></div>
+    <p id="projects">PROJECTS</p>
+
+    <h1 id="tracker">EXPENSE TRACKER</h1>
+
+    <h2 id="expense">
+
+
+
+        1.Created an expense tracker where users
+        can login, signup, add and remove
+        expenses and also download the total
+        expense report in pdf format
+
+
+        2. Added
+        authentication for user using jwt token
+
+        3.Used Bcrypt library to encrypt user
+        password and store it in database
+        4.Integrated razorpay payment gateway
+        5.Integerated email for password reset
+        6.Added leader-board for premium users
+        7.Expense tracker using sequelize and SQL
+        8.Expense tracker using mongoose and
+        mongoDB
+        https://github.com/Rohithacker/exp
+        ense-tracker-dynamic-pagination-
+        Task-19
+    </h2>
+
+    <h1 id="chat">GROUP CHAT APP</h1>
+    <h2 id="chat_para">1.Application where users can login, send
+        and receive messages by creating group
+        2.Designed schema for chats, users and
+        groups and setup association among them
+        Followed MVC model pattern and
+        used sequelize
+        4.Admin can create multiple group and
+        only admin can add and remove users
+        Used Socket.io for real time chat
+        https://github.com/Rohithacker/Gro
+        upChatApp
+        Python hacking tools
+        Bunch of hacking tools created in python
+        https://github.com/Rohithacker/pyt
+        hon-hacking-tools
+        iot projects
+        Few arduino and rasberry pi projects
+        https://github.com/Rohithacker/Ard
+        uino-projects
+        Android dev in java
+        stopwatch app created using java
+        https://github.com/satyamhacker/And</h2>
+
+        <div id="top_bar_3"></div>
+        <p id="certificate">CER NO - BCA808435</p>
+
+
+</body>
+
+</html>
